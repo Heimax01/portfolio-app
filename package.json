@@ -3,13 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "auth0-js": "^9.13.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
     "next": "9.4.1",
+    "next-routes": "^1.4.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-typed": "^1.2.0",
+    "reactstrap": "^8.4.1",
+    "sass": "^1.26.5"
   }
 }
